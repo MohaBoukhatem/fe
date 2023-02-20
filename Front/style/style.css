@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+
+
+}
+body{
+    background-color: rgb(255, 225, 255);
+}
+.c-btn{
+    display: flex;
+    margin-top: 5%;
+}
+.c-body{
+	margin-top:15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    height: 180px;
+    /* width: auto; */
+    box-shadow: 15px 15px 35px gray;
+    background-color: 	red;
+	float : left;
+	
+}
+
+#time{
+    color: white;
+    margin-top: 15px;
+    font-size: 55px;
+	margin-left: 15px;
+}
+button{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-color: transparent;
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+	margin-right: 15px;
+
+}
+button:hover{
+    font-size: 25px;
+    cursor: pointer;
+    background-color: gray;
+    color: blue;
+    border-color: transparent;
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+
+}
+
+#btn-start {
+	margin-left: 15px;
+}
+#display {
+	font-size: 30px;
+	color: red;
+	margin-left: 25px;
+	
+	display : inline-block;
+	
+}
+
+#schema {
+	float : right;
+	width: 50%;
+	height: 800 px;
+	border : solid;
+	border-radius: 5px;
+	background-color: aquamarine;
+}
+#poids{
+	animation-name: bas;
+	
+@keyframes bas {
+  0%   {top:0px;}
+  50%  {top: 100px;}
+  100% {top:200px;}
+}	
+}
